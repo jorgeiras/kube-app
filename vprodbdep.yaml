@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image:  jorgeiras/vprofileapp:V1
+          image:  jorgeiras/vprofiledb:latest
           volumeMounts:
             - name: vprodb-db-data
               mountPath:  /var/lib/mysql
